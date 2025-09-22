@@ -8,6 +8,7 @@ const ColorComponent = ({ colors, selectedColor, onColorSelect }) => {
         {colors.map((color) => (
           <button
             style={{ background: color.value }}
+            key={color.id}
             className={`w-5 h-5 rounded-full cursor-pointer ${
               selectedColor === color.value
                 ? "border-black ring-2 ring-offset-1 ring-blue-300"

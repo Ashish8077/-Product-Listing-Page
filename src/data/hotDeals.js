@@ -9,12 +9,12 @@ export const hotDeals = [
 ];
 
 export const colors = [
-  { name: "Blue", value: "#006CFF" },
-  { name: "Red", value: "#FC3E39" },
-  { name: "Black", value: "#171717" },
-  { name: "Yellow", value: "#FFF600" },
-  { name: "Purple", value: "#FF00B4" },
-  { name: "White", value: "#EFDFDF" },
+  { id: crypto.randomUUID(), name: "Blue", value: "#006CFF" },
+  { id: crypto.randomUUID(), name: "Red", value: "#FC3E39" },
+  { id: crypto.randomUUID(), name: "Black", value: "#171717" },
+  { id: crypto.randomUUID(), name: "Yellow", value: "#FFF600" },
+  { id: crypto.randomUUID(), name: "Purple", value: "#FF00B4" },
+  { id: crypto.randomUUID(), name: "White", value: "#EFDFDF" },
 ];
 
 export const brands = [
@@ -23,7 +23,6 @@ export const brands = [
   { id: crypto.randomUUID(), name: "Adidas", quantity: 99 },
   { id: crypto.randomUUID(), name: "Siemens", quantity: 99 },
 ];
-
 
 [
   {
@@ -339,4 +338,3 @@ export const brands = [
     imageUrl: "/images/products/smarthub.png",
   },
 ];
-

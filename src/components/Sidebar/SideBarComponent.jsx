@@ -16,7 +16,9 @@ const SideBarComponent = ({ title, data }) => {
       {isOpen && (
         <ul>
           {data.map((deal) => (
-            <div className="flex justify-between p-4 hover:text-blue-400 cursor-pointer">
+            <div
+              className="flex justify-between p-4 hover:text-blue-400 cursor-pointer"
+              key={deal.id}>
               <li>{deal.name}</li>
               <li>{deal.quantity}</li>
             </div>
